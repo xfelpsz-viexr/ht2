@@ -1,0 +1,59 @@
+body {
+    background-image: url("fotos/fn3.jfif");
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo {
+    
+    border: 5px solid rgb(160, 4, 4);
+    border-radius: 1px;
+    background-color: rgb(160, 4, 4);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.inserir{
+    height: 25px;
+}
+
+.botao {
+    height: 40px;
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 540px;
+}
+
+.botao2 {
+    height: 40px;
+    display: flex;
+    position: absolute;
+    right: 150px;
+    top: 540px;
+}
+
+.form {
+    background-color: rgb(160, 4, 4);
+    border: 2px solid rgb(160, 4, 4);
+    border-radius: 10px;
+    height: 590px;
+    width: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+*{
+    margin: 0px;
+}
