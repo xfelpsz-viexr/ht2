@@ -1,12 +1,11 @@
 body {
     background-image: url("fotos/fn3.jfif");
     background-position: center;
-    background-size: cover;
 }
 
 .titulo {
     
-    border: 5px solid rgb(160, 4, 4);
+    border: 10px solid rgb(160, 4, 4);
     border-radius: 1px;
     background-color: rgb(160, 4, 4);
     font-style: italic;
@@ -14,7 +13,7 @@ body {
     font-size: 45px;
     text-align: center;
     color: rgb(255, 255, 255);
-
+    padding-bottom: 5px;
 }
 
 .inserir{
@@ -38,17 +37,17 @@ body {
 }
 
 .form {
-    background-color: rgb(160, 4, 4);
-    border: 2px solid rgb(160, 4, 4);
-    border-radius: 10px;
+    background-color: rgb(160, 4, 4, 0.5);
+    border: 2px solid rgb(160, 4, 4, 0.5);
+    border-radius: 5px;
     height: 590px;
     width: 600px;
     align-items: center;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 200px;
+    left: 650px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
